@@ -1,0 +1,6 @@
+[flake8]
+max-line-length = 110
+ignore = E201, E202, F401
+per-file-ignores =
+  candumpgen/project.py:E203,E221
+  candumpgen/version.py:E203,E221
